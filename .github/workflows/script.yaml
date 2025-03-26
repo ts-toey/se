@@ -54,4 +54,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/software_engineer:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/software_engineer:0
