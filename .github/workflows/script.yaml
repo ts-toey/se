@@ -54,4 +54,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/se:0
+          tags: ${{ secrets.DOCKER_USERNAME }}/se:1
