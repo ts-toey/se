@@ -4,7 +4,7 @@ const { multiply } = require("../module/multiply");
 const { divide } = require("../module/divide");
 
 test("plus 1 + 2 to equal 3", () => {
-  expect(plus(1, 2)).toBe(4);
+  expect(plus(1, 2)).toBe(3);
 });
 
 test("subtract 4 - 2 to equal 2", () => {
