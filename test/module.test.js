@@ -3,8 +3,8 @@ const { subtract } = require("../module/subtract");
 const { multiply } = require("../module/multiply");
 const { divide } = require("../module/divide");
 
-test("plus 1 + 2 to equal 3", () => {
-  expect(plus(1, 2)).toBe(3);
+test("plus 2 + 2 to equal 4", () => {
+  expect(plus(2, 2)).toBe(4);
 });
 
 test("subtract 4 - 2 to equal 2", () => {
